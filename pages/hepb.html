@@ -8,6 +8,7 @@
   <header>
   <nav class = "topnav">
     <ul>
+      <a href="pages/registration.html">Register new client</a>
     <li><a href="../index.html">Home</a></li>
     <li><a href="../index.html">logout</a></li>
     </ul>
@@ -16,7 +17,7 @@
 <section class ="row">
   <nav class = "col-3 bottomnav">
    <ul>
-     <li><a href="../pages/client.html" target="_blank">personal information</a></li>
+     <li><a href="../pages/personalinfo.html" target="_blank">personal information</a></li>
      <li><a href="../pages/riskfactors.html" target="_blank">riskfactor</a></li>
      <li><a href="../pages/hepb.html" target="_blank">Hep B</a></li>
      <li><a href="../pages/Congen syphilis.html" target="_blank">Congental Syphillis</a></li>
@@ -27,105 +28,108 @@
     <article class ="col-9">
       <form class="col-9" action="../pages/Congenital Syphilis.html">
       <h1>Hepatitis B Infected Pregnant Woman Reporting Form</h1>
-      <label for="text">Last name </label>
-      <input type="text" ></input>
-      <label for="text">First name</label>
-      <input type="text" ></input>
-      <label for="text">Middle name</label>
-       <input type="text" ></input><br/>
-      <label for="date">Date of Birth</label>
-       <input type="date" ></input>
-      <label for="date">Estimated Delivery Date</label>
-       <input type="date" ></input>
-        <h2>Patient aware of HepB+ status?</h2>
-       <label for="radio">Yes</label>
-       <input type="radio" name="radi"></input><br/>
-      <label for="radio">No</label>
-       <input type="radio" name="radi"></input><br/>
-       <label for="radio">Idk</label>
-       <input type="radio" name="radi"></input><br/>
-      <label for="text">Address</label>
-       <input type="text" ></input><br/>
-      <label for="text">City</label>
-       <input type="text" ></input><br/>
-      <label for="text">State</label>
-       <input type="text" ></input><br/>
-      <label for="text">Zip</label>
-       <input type="text" ></input><br/>
-      <label for="tel">tel-</label>
-       <input type="tel" ></input><br/>
-       <h2>Type of Insurance:</h2>
-
-       <label for="radio"></label>
-       <input type="radio" name="radio">Private</input><br/>
-       <input type="radio" name="radio">Medicaid</input><br/>
-       <input type="radio" name="radio">Medicare</input><br/>
-       <input type="radio" name="radio">Uninsured</input><br/>
-       <input type="radio" name="radio">Unknown</input><br/>
-
-       <h2>Race</h2>
-       <input type="radio" name="rado">American Indian/Alaskan Native</input><br/>
-       <input type="radio" name="rado">Native Hawaiian/Pacific Islander</input><br/>
-       <input type="radio" name="rado">Other</input><br/>
-       <input type="radio" name="rado">Asian</input><br/>
-       <input type="radio" name="rado">White</input><br/>
-       <input type="radio" name="rado">Black/African Am.</input><br/>
-       <input type="radio" name="rado">Unk</input><br/>
-
-       <h2>Hispanic:</h2>
-       <input type="radio" name="rad">Yes</input><br/>
-       <input type="radio" name="rad">No</input><br/>
-       <input type="radio" name="rad">Idk</input><br/>
-
-
-       <label for="text">Country of Birth:</label>
-       <input type="text"></br>
-
-       <label for="text">Primary Language:</label>
-       <input type="text"></br>
-
-       <input type="radio" name="rade">Check if Interpreter Needed:</input><br/>
-
-       <h1>LABORATORY INFORMATION</h1>
-       <h2><b>Laboratory Results:</b></h2>Check off below any POSITIVE labs and attach positive Hep B lab results <br/>
-       <input type="radio" name="radoi">HBsAg (Hep B surface antigen)</input>
-       <input type="radio" name="radoi">HBeAg (Hep Be antigen)</input><br/>
-       <input type="radio" name="radoi">IgM anti-HBc (IgM antibody to Hep B core antigen)</input>
-       <input type="radio" name="radoi">HBV DNA (Hep B virus DNA)</input><br/>
-
-       <h1>CLINICAL INFORMATION</h1>
-       <label for="text">OB Provider Last Name:</label>
-       <input type="text"><br/>
-
-       <label for="text">OB Provider First Name:</label>
-       <input type="text"><br/>
-
-       <label for="text">Expected Delivery Facility:</label>
-       <input type="text"><br/>
-
-       <label for="text">Address:</label>
-       <input type="text"><br/>
-
-       <label for="text">City:</label>
-       <input type="text"><br/>
-
-       <label for="text">State:</label>
-       <input type="text"><br/>
-
-       <label for="text">Zip:</label>
-       <input type="text"><br/>
-
-       <label for="text">Contact Person at Reporting Facility:</label>
-       <input type="text"><br/>
-
-       <label for="tel">Direct Phone:</label>
-       <input type="tel"><br/>
-<label for="date">Date Form Completed:</label>
-<input type="date" name="" value=""><br/>
-<input type="radio" name="radio">Positive Labs Attached</input><br/>
+<label for="last">Last name</label><br/>
+<input type="text" name="last" id="last"><br/>
+<label for="texzre">First name</label><br/>
+<input type="text" name="texzre" id="texzre"><br/>
+<label for="textsa">Middle name</label><br/>
+<input type="text" name="textsa" id="textsa"><br/>
+<label for="dateuy">Date of Birth</label><br/>
+<input type="date" name="dateuy" id="dateuy"><br/>
+<label for="dateyu">Estimated Delivery Date</label><br/>
+<input type="date" name="dateyu" id="dateyu"><br/>
+<h2>Patient aware of HepB+ status?</h2><br/>
+<label for="radyes">Yes</label>
+<input type="radio" name="radyes" id="radyes"><br/>
+<label for="radno">No</label>
+<input type="radio" name="radno" id="radno"><br/>
+<label for="radunk">Unk</label>
+<input type="radio" name="radunk" id="radunk"><br/>
+<label for="textsm">Address</label><br/>
+<input type="text" name="textsm" id="textsm"><br/>
+<label for="textci">City</label><br/>
+<input type="text" name="textci" id="textci"><br/>
+<label for="textsi">State</label><br/>
+<input type="text" name="textsi" id="textsi"><br/>
+<label for="textzzs">Zip</label><br/>
+<input type="text" name="textzzs" id="textzzs"><br/>
+<label for="telret">tel-</label><br/>
+<input type="tel" name="telret" id="telret"><br/>
+<h2>Type of Insurance:</h2>
+<input type="radio" name="pri" id="pri">
+<label for="pri">Private</label>
+<input type="radio" name="aid" id="aid">
+<label for="aid">Medicaid</label><br/>
+<input type="radio" name="med" id="med">
+<label for="med">Medicare<label><br/>
+<input type="radio" name="un" id="un">
+<label for="un">Uninsured</label>
+<input type="radio" name="Unk" id="Unk">
+<label for="Unk">Unknown</label><br/>
+<h4>Race</h4>
+<input type="radio" name="AIAN" id="AIAN">
+<label for="AIAN">American Indian/Alaskan Native</label><br/>
+<input type="radio" name="NHPI" id="NHPI">
+<label for="NHPI">Native Hawaiian/Pacific Islander</label><br/>
+<input type="radio" name="Oth" id="Oth">
+<label for="Oth">Other</label><br/>
+<input type="radio" name="Asian" id="Asian">
+<label for="Asian">Asian</label><br/>
+<input type="radio" name="W" id="W">
+<label for="W">White</label><br/>
+<input type="radio" name="BAA" id="BAA">
+<label for="BAA">Black/African Am.</label><br/>
+<input type="radio" name="rado">
+<label for="u">Unk</label><br/>
+<h4>Hispanic:</h4>
+<input type="radio" name="yes" id="yes">
+<label for="yes">Yes</label><br/>
+<input type="radio" name="no" id="no">
+<label for="no">No</label><br/>
+<input type="radio" name="rad" id="rad">
+<label for="rad">Unk</label><br/>
+<label for="textxc">Country of Birth:</label><br/>
+<input type="text" name="textxc" id="textxc"></br>
+<label for="textre">Primary Language:</label><br/>
+<input type="text" name="textre" id="textre"></br>
+<input type="radio" name="rade" id="rade">
+<label for="rade">Check if Interpreter Needed:</label><br/>
+<h1>LABORATORY INFORMATION</h1>
+<h3>Laboratory Results:</h3>
+</h2>Check off below any POSITIVE labs and attach positive Hep B lab results <br/>
+<input type="radio" name="radoi" id="radi">HBsAg (Hep B surface antigen)<br/>
+<input type="radio" name="vbri" id="vbri">
+<label for="vbri">HBeAg (Hep Be antigen)</label><br/>
+<input type="radio" name="radosd" id="radiosd">
+<label for="radiosd">IgM anti-HBc (IgM antibody to Hep B core antigen)</label><br/>
+<input type="radio" name="radiy" id="radiiy">
+<label for="radiy">HBV DNA (Hep B virus DNA)</label><br/>
+<h1>CLINICAL INFORMATION</h1>
+<label for="texted">OB Provider Last Name:</label><br/>
+<input type="text" name="texted" id="texted"><br/>
+<label for="textsd">OB Provider First Name:</label><br/>
+<input type="text" name="textsd" id="textsd"><br/>
+<label for="textaz">Expected Delivery Facility:</label><br/>
+<input type="text" name="textaz" id="textaz"><br/>
+<label for="texts">Address:</label><br/>
+<input type="text" name="texts" id="texts"><br/>
+<label for="texttr">City:</label><br/>
+<input type="text" name="texttr" id="texttr"><br/>
+<label for="texte">State:</label><br/>
+<input type="text" name="texte" id="texte"><br/>
+<label for="textj">Zip:</label><br/>
+<input type="text" name="textj" id="textj"><br/>
+<label for="texti">Contact Person at Reporting Facility:</label><br/>
+<input type="text" id="text"><br/>
+<label for="tele">Direct Phone:</label><br/>
+<input type="tel" id="tele"><br/>
+<label for="datex">Date Form Completed:</label><br/>
+<input type="date" name="datex" id="datex"><br/>
+<input type="radio" name="radioy" id="radioy">
+<label for="radioy">Positive Labs Attached</label><br/>
 <input type="submit" value="Next"><br/>
-       </form>
-    </article>
+</form>
+</article>
 
 </section>
 </body>
