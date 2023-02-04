@@ -1,8 +1,9 @@
 <!doctype html>
 <html>
 <head>
+<script src="../scripts/drag.js"></script>
   <title>Assignment 12</title>
-  <link rel = "stylesheet" type ="text/css" href ="../css/styles.css"/>
+  <link rel = "stylesheet" type ="text/css" href ="../css/15dd.css"/>
 </head>
 <body>
 <header>
@@ -25,10 +26,19 @@
      <li><a href="../pages/Chlamydia & Gonorrhea.html" target="_blank">Chlamydia & Gonorrhea.html</a></li>
    </ul>
    </nav>
-    <article class ="col-9">
-
+   <article class ="col-9">
+     <p>In the last 12 months, drag the options that apply</p>
+     <div id="container1" ondrop="drop(event)" ondragover="allowDrop(event)">
+       <input type="text" id="box1" draggable="true" value="had sex with males" ondragstart="drag(event)"/>
+       <input type="text" id="box2" draggable="true" value="had sex with females" ondragstart="drag(event)"/>
+       <input type="text" id="box3" draggable="true" value="victim of sexual assault" ondragstart="drag(event)"/>
+       <input type="text" id="box4" draggable="true" value="homeless" ondragstart="drag(event)"/>
+       <input type="text" id="box5" draggable="true" value="incarcerated" ondragstart="drag(event)"/>
+       <input type="text" id="box6" draggable="true" value="possible exposure" ondragstart="drag(event)"/>
+       <input type="text" id="box7" draggable="true" value="routine screening" ondragstart="drag(event)"/>
+     </div>
+    <div id="container2" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
     </article>
-
 </section>
 </body>
 </html>
